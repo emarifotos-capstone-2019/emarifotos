@@ -1,0 +1,58 @@
+.container-fluid.navbar-container, .navbar-brand {
+    padding-left: 0;
+  }
+
+  header {
+    overflow: hidden;
+    white-space:nowrap; /*added*/
+}
+
+nav ul {
+   display:inline-block;
+   white-space:nowrap;/*added*/
+  }
+
+.carousel{
+  padding-top:20pt;
+}
+.carousel-inner item {
+  border-color:red 1px;
+}
+
+
+.footer {
+  position: fixed;
+
+}
+body{
+  background-color: antiquewhite;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+   margin-top: 0;
+}
+
+.footerzxc{
+  background-image: url(../images/footer.jpg);
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+  background-repeat: no-repeat, repeat;
+}
+ 
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
